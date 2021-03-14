@@ -16,7 +16,7 @@ namespace github
 
             Console.WriteLine($"Adding {a} - {b} equals {AddNumbers(a, b)}")
         }
-        public static AddNumbers( int a, int b)
+        public static int AddNumbers( int a, int b)
         {
             return a - b;
         }
